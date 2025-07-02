@@ -1,0 +1,96 @@
+
+body {
+    font-size: 16px;
+    background-image: url(nietzche-fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+  
+
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  }
+ 
+  @media (min-width: 1200px) {
+    body {
+      font-size: 18px;
+    }
+  }
+
+#NietzscheFoto1 {
+    height: 500px;
+}
+
+#conteúdo {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+#DivSobre {
+    display: flex;
+    justify-content: center;
+}
+
+
+  .DivPaiIntrodução {
+    background: rgba(255, 255, 255, 0.459); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  #DivConceitos {
+    margin-top: 60px;
+  }
+  
+  #ConceitosTítulo {
+    margin-bottom: 40px;
+  }
+
+  #DivÜbermensch {
+    margin-top: 60px;
+  }
+
+  #DivEternoRetorno {
+    margin-top: 60px;
+  }
+
+  #DivCrítica {
+    margin-top: 60px;
+  }
+
+  #DivLegado { 
+    margin-top: 60px;
+  }
+
+  #DivConclusão {
+    margin-top: 60px;
+  }
+
+  .contorno {
+    color: rgb(0, 0, 0);
+    text-shadow:
+      -1px -1px 0 rgb(255, 255, 255),
+       1px -1px 0 rgb(255, 255, 255),
+      -1px  1px 0 rgb(255, 255, 255),
+       1px  1px 0 rgb(255, 255, 255);
+  }
+
+  p {
+    font-weight: bold;
+  }
+
+  li {
+    font-weight: bold;
+    margin-top: 20px;
+  }
